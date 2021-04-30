@@ -13,7 +13,6 @@
         android:id="@+id/txtScreen1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="184dp"
         android:text="Pantalla 1"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/btnTo2"
@@ -25,33 +24,33 @@
         android:id="@+id/btnTo2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:text="ir a 2"
         app:layout_constraintBottom_toTopOf="@+id/btnTo3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtScreen1" />
 
     <Button
         android:id="@+id/btnTo3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:text="ir a 3"
         app:layout_constraintBottom_toTopOf="@+id/btnTo4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTo2" />
 
     <Button
         android:id="@+id/btnTo4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="24dp"
         android:text="ir a 4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnTo3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
